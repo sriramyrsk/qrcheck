@@ -1,0 +1,128 @@
+html {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: #e0e8ff;
+  margin: 0;
+  height: 100%;
+}
+
+button {
+  border: none;
+  font-size: 1.17em;
+  padding: 0;
+}
+
+.flex-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.flex-cont__c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card-holder {
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.order-card {
+  width: 20.3rem;
+  height: 35.3rem;
+  background-color: white;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.img-cont {
+  background-image: url("images/illustration-hero.svg");
+  width: 100%;
+  height: 10rem;
+  background-size: cover;
+}
+
+.slogan {
+  width: 17rem;
+  height: 4.5rem;
+  text-align: center;
+  color: #7280a7;
+}
+
+.plan-cont {
+  width: 17.2rem;
+  height: 4.5rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f5f7ff;
+}
+
+.plan-cont a {
+  color: #3829e0;
+}
+
+.plan-des {
+  margin-left: 1.5rem;
+}
+
+.plan-des p {
+  color: #7280a7;
+}
+
+.button-cont {
+  height: 3.1rem;
+  width: 17.2rem;
+}
+
+.button {
+  width: 100%;
+  height: 100%;
+  background-color: #3829e0;
+  color: white;
+  font-weight: 900;
+}
+
+.cancel-cont {
+  width: 17.2rem;
+  height: 3.1rem;
+}
+
+.cancel {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  color: #7280a7;
+  font-weight: 900;
+}
+/*# sourceMappingURL=style.css.map */
